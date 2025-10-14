@@ -5,12 +5,23 @@ Write your W1 activity Devlog here. Hello world!
 Hello world!
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
-### q1
-because r g b are floats because color values are continuous (0.0 ~ 1.0) and need decimals for smooth color changes.
-### q2
-because the bounce is an int because it counts whole bounce events—something you can’t do with fractions.
-### q3
-it shows"All compiler errors have to be fixed before you can enter playmode!UnityEditor.SceneView:ShowCompileErrorNotification ()， it means there something wrong of code like missing the symbol “ ； ”
+
+1. becae r g b are floats because color values are continuous (0.0 ~ 1.0) and need decimals for smooth color changes.
+
+2. because the bounce is an int because it counts whole bounce events—something you can’t do with fractions.
+
+3. it shows"All compiler errors have to be fixed before you can enter playmode!UnityEditor.SceneView:ShowCompileErrorNotification ()， it means there something wrong of code like missing the symbol “ ； ”
+
+### w3
+
+1. table 19 : The SetLightDimness method takes the player’s sanity level as a float 0 ~ 100 , and because of it doesnt need a output so it has a void return type since it directly changes the room’s light brightness.
+
+2. Classes are like cookie cutters, and Components are the cookies made from them.
+Member variables are the ingredients that define each cookie’s traits, and methods are the actions it can do.
+
+3. 
+The balls get too bright because each bounce keeps adding light intensity with no limit.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
