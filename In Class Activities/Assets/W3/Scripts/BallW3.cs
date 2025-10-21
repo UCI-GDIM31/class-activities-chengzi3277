@@ -24,7 +24,7 @@ public class BallW3:MonoBehaviour
         //      of _speedMultiplier. TUNE that value in the Inspector and see
         //      what happens!
 
-       GetComponent<Rigidbody>().linearVelocity *= _speedMultiplier;
+       GetComponent<Rigidbody2D>().linearVelocity *= _speedMultiplier;
 
         // STEP 1 -------------------------------------------------------------
 
