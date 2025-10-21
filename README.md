@@ -22,6 +22,15 @@ Member variables are the ingredients that define each cookie’s traits, and met
 3. 
 The balls get too bright because each bounce keeps adding light intensity with no limit.
 
+
+### w4
+
+1.   table 19 
+  _isGrounded is a member variable of type boolean, used to track whether the character is on the ground.And the code will call a method to check When both the player click space and the cat is "isgrounded" , the if statement will be ture. And the last code  means when the cat start jumping the 'isgrounded' will be false, it limits jump of cat.
+
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
