@@ -29,7 +29,20 @@ The balls get too bright because each bounce keeps adding light intensity with n
   _isGrounded is a member variable of type boolean, used to track whether the character is on the ground.And the code will call a method to check When both the player click space and the cat is "isgrounded" , the if statement will be ture. And the last code  means when the cat start jumping the 'isgrounded' will be false, it limits jump of cat.
 
 2. tablet 19
- ball and cat need rigidbody because they need phyiscal body when the cat hit the ball. the goal don't need a phyiscal body and it will check trigger because it need to record when the ball pass through the goal. during I add the component I find that the cat is floating on the sky. and the problem of this bug is that the size of collidor is too large after i edit the size the collider the cat will not floating.
+ ball and cat need rigidbody because they need phyiscal body when the cat hit the ball. the goal don't need a phyiscal body and it will check trigger because it need to record when the ball pass through the goal. during I add the component I find that the cat is floating on the sky. and the problem of this bug is that the size of collidor is too large after i edit the size the collider the cat will not floating
+
+### w5
+
+ 1. Why use transform.Translate() in Unity?
+
+ We use transform.Translate() to move a GameObject. It changes the object’s position in the game, making it move smoothly each frame.
+
+ 2. 
+What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+Start and update methods should be provided by Unity. The methods should include move to target (for deer it should also be provided by unity AI navi mesh), play animation and a collision method to prevent object pass through each others. 
+
+What should the method(s) do?
+The methods should direct gameObjects to do what they purpose. For example direct the deer to the right place and play correct animation for each animals.
 
 ## Open-Source Assets
 ### W1
