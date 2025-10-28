@@ -28,10 +28,11 @@ The balls get too bright because each bounce keeps adding light intensity with n
 1.   table 19 
   _isGrounded is a member variable of type boolean, used to track whether the character is on the ground.And the code will call a method to check When both the player click space and the cat is "isgrounded" , the if statement will be ture. And the last code  means when the cat start jumping the 'isgrounded' will be false, it limits jump of cat.
 
-
-
+2. tablet 19
+ ball and cat need rigidbody because they need phyiscal body when the cat hit the ball. the goal don't need a phyiscal body and it will check trigger because it need to record when the ball pass through the goal. during I add the component I find that the cat is floating on the sky. and the problem of this bug is that the size of collidor is too large after i edit the size the collider the cat will not floating.
 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
+
