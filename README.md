@@ -67,10 +67,24 @@ Update() → runs every frame; moves the bat toward the Cat if _isChasing is tru
 public void StartChasing() → sets _isChasing to true.
 public void StopChasing() → sets _isChasing to false.
 
-What the Methods Should Do
 
 In Update():
+// public class BatW6 : MonoBehaviour
+{
+    [SerializeField] private float _speed;
+    private Transform _playerTransform;
+    public void EnableChase(Transform player)
+    {
+        enabled = true;
+        _playerTransform = player;
+        
+    }
 
+    public void DisableChase()
+    {
+        enabled = false;
+    }
+}
 
 
 
