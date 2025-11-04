@@ -44,6 +44,39 @@ Start and update methods should be provided by Unity. The methods should include
 What should the method(s) do?
 The methods should direct gameObjects to do what they purpose. For example direct the deer to the right place and play correct animation for each animals.
 
+
+### w6
+
+1. table 19  (part 2)
+[https://docs.google.com/document/d/13WL1faOUeHHIt5U-4Nu450rY6-oTy8zhNi828PVl7UI/edit?pli=1&tab=t.0#heading=h.jo9rncec39bd](URL)
+
+2. to design and implement a Unity C# script that controls bat behavior. The goal is to make all bats move toward the Cat using variables and methods that the BatManager can trigger.
+
+
+
+Member Variables
+
+Transform _target → reference to the Cat’s position.
+float _speed → how fast the bat moves (adjustable in Inspector).
+bool _isChasing → determines whether the bat is currently chasing.
+
+Methods
+
+Start() → runs once at the beginning; for testing, it should make the bat start chasing immediately.
+Update() → runs every frame; moves the bat toward the Cat if _isChasing is true.
+public void StartChasing() → sets _isChasing to true.
+public void StopChasing() → sets _isChasing to false.
+
+What the Methods Should Do
+
+In Update():
+
+
+
+
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
