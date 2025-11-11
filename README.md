@@ -86,6 +86,14 @@ In Update():
     }
 }
 
+### w7
+
+1. table 19  part gamepaly and ui
+[https://docs.google.com/document/d/1Big5iCIqdYzUKfa1Z3fyaYFgzxHEucc_XLNDuWF1kiQ/edit?usp=sharing](URL)
+
+2. The issue with the code in Step 2 is that it uses `Vector3.forward`, which always moves the Muskrat along the world’s Z-axis, instead of moving it based on the direction it’s facing. As a result, the Muskrat won’t move forward or backward correctly after turning. To fix this, the code should use `transform.forward` (the Muskrat’s local forward direction) or `transform.Translate(...)`, so that the movement aligns with its current rotation.
+
+it should be transform.Translate (movement * vevtor3.forward * _moveSpeed * Time.deltaTime);
 
 
 
