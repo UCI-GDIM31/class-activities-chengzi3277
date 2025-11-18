@@ -96,6 +96,13 @@ In Update():
 it should be transform.Translate (movement * vevtor3.forward * _moveSpeed * Time.deltaTime);
 
 
+### w8
+
+1. table 1 
+step2 part 2,4 / step 3
+ [https://docs.google.com/document/d/1OcRnmpJGvT2ei0si4KPq7VGxaeAKZk2t8GYKJxgefwg/edit?tab=t.0](URL)
+
+
 
 
 
