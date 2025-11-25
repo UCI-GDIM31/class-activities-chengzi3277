@@ -103,6 +103,12 @@ step2 part 2,4 / step 3
  [https://docs.google.com/document/d/1OcRnmpJGvT2ei0si4KPq7VGxaeAKZk2t8GYKJxgefwg/edit?tab=t.0](URL)
 
 
+### w9
+
+1. table 1
+part1，4
+[https://docs.google.com/document/d/1jeO-JsINyjAlpt7JRQJPkYuQHfRKsOL3UpSXaxJuU5A/edit?tab=t.0](URL)
+
 
 
 
